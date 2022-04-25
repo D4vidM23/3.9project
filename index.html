@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click H Game </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="content">
+
+        <button> <h2>H</h2> </button>
+
+    </div>
+
+    <div id="text">
+    </div>
+
+    <script>
+
+        const button = document.querySelector('button');
+        const text = document.getElementById('text');
+
+
+        button.addEventListener('click', function(){
+            let yt = document.createElement('h2');
+            yt.innerHTML = e();
+            text.insertAdjacentElement('afterbegin', yt);
+        })
+
+
+        function e () {
+            let vt = "H";
+            return vt;
+        }
+    </script>
+
+</body>
+</html>
