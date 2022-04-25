@@ -1,6 +1,12 @@
 button{
     margin: 20px 20px 20px 20px;
     border-radius: 6px;
+    border-color: #c0d6e2;
     height: 120px;
     width: 120px;
+    background: #96cdee;
+}
+.h{
+    margin: -10px 20px 20px 20px;
+    color: white;
 }
